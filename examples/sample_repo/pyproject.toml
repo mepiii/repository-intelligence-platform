@@ -1,0 +1,7 @@
+[project]
+name = "sample-repo"
+version = "1.0.0"
+dependencies = [
+    "pyjwt>=2.8.0",
+    "fastapi>=0.110.0"
+]

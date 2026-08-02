@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repointel"
+version = "0.1.0"
+dependencies = [
+    "click>=8.1.7",
+    "requests>=2.31.0",
+    "rich>=13.7.1"
+]
+
+[project.scripts]
+repointel = "repointel.main:cli"
